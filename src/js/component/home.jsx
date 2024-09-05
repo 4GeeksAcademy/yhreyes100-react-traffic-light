@@ -12,9 +12,9 @@ const Home = () => {
 		<div className="protector"></div>
 		<div className="protector"></div>
 		<div className="protector"></div>
-		<div className={`red ${ color=="red"?"glow":"" }`} onClick={()=>setColor("red")}></div>
-		<div className={`yellow ${ color=="yellow"?"glow":"" }`} onClick={()=>setColor("yellow")}></div>
-		<div className={`green ${ color=="green"?"glow":"" }`} onClick={()=>setColor("green")}></div>
+		<div className={`red ${ color=="red"?"glow":"opacity" }`} onClick={()=>setColor("red")}></div>
+		<div className={`yellow ${ color=="yellow"?"glow":"opacity" }`} onClick={()=>setColor("yellow")}></div>
+		<div className={`green ${ color=="green"?"glow":"opacity" }`} onClick={()=>setColor("green")}></div>
 	    </div>
 		</div>
 	);
